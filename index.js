@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
       <title>Simple OG Image Example</title>
 
       <meta property="fc:frame" content="vNext" />
-      <meta property="fc:frame:image" content=${ogImage} />
+
       <meta property="og:image" content=${ogImage} />
 
     </head>
