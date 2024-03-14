@@ -20,6 +20,8 @@ app.get("/", (req, res) => {
 
       <meta property="fc:frame" content="vNext" />
       <meta property="fc:frame:image" content=${ogImage} />
+      <meta property="og:image" content=${ogImage} />
+
     </head>
     <body>
       <h1>Hello, World!</h1>
