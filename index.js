@@ -17,8 +17,8 @@ app.get("/", (req, res) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Simple OG Image Example</title>
 
-      <meta property="fc:frame" content="vNext" />
-<meta property="fc:frame:video" content="https://www.youtube.com/watch?v=771Sym9FgXw" />
+      <meta property="of:accepts:farcaster" content="vNext" />
+<meta property="of:image" content=${ogImage}/>
       <meta property="og:image" content=${ogImage} />
 
     </head>
