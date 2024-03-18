@@ -16,10 +16,12 @@ app.get("/", (req, res) => {
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Simple OG Image Example</title>
+      <meta property="of:version" content="vNext" />
 
       <meta property="of:accepts:farcaster" content="vNext" />
 <meta property="of:image" content=${ogImage}/>
       <meta property="og:image" content=${ogImage} />
+      <meta property = ""
 
     </head>
     <body>
