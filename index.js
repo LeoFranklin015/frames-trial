@@ -8,7 +8,8 @@ app.get("/", (req, res) => {
   // This is a simple example, you might want to dynamically generate this tag
   const ogImage =
     "https://wallpapers.com/images/featured-full/iron-man-ouqxo5w2b59h0042.jpg";
-
+  const randomNumber = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
+  console.log(randomNumber);
   res.send(`
     <!DOCTYPE html>
     <html lang="en">
@@ -19,9 +20,10 @@ app.get("/", (req, res) => {
       <meta property="of:version" content="vNext" />
 
       <meta property="of:accepts:farcaster" content="vNext" />
+      <meta property="of:accepts:xmtp" content="2024-02-01"/>
 <meta property="of:image" content=${ogImage}/>
       <meta property="og:image" content=${ogImage} />
-      <meta property = ""
+      <meta property = "of:input:text" content ="Enter number" />
 
     </head>
     <body>
